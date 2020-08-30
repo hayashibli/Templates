@@ -2,14 +2,6 @@ body{
     background-color: whitesmoke;
 }
 
-
-
-nav ul{
-
-    background-color: black;
-    
-
-}
 .homepage{ 
     color: white;
     text-decoration: none;
@@ -21,6 +13,7 @@ nav ul{
   width: 250px;
   text-align: center;
   background-size: cover;
+  
 }
 
 #name{
@@ -143,6 +136,7 @@ position: absolute;
 }
 
 #p4{
+    color: rgb(58, 57, 57);
     text-align: left;
     align-items: center;
     margin-left: 25.5%;
@@ -151,7 +145,48 @@ position: absolute;
     font-family: Consolas;
     width: 50%;
     letter-spacing: 1px
+    
 }
 
+#form{
+    text-align: left;
+    align-items: center;
+    margin-left: 25.5%;
+}
 
+.FI{
+    width: 60%;
+    padding: 26px;
+    font-family: Consolas;
+    font-size: 110%;
+}
 
+#SM{
+    background-color: black;
+     color: white;
+     padding: 13px;
+     font-family: Consolas;
+     font-size: 110%;
+}
+
+#FC{
+    font-size: 110%;
+    color: rgb(58, 57, 57);
+    font-family: Consolas;
+    background-color:rgb(240, 240, 240);
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+
+}
+
+#MENU1{
+    width: 20%;
+    
+
+}
+
+#MENU2{
+    width: 20%;
+
+}

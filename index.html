@@ -6,7 +6,7 @@
 </head>
     
     <header>
-        <nav>
+        <nav style="background-color: black;">
         <ul>
             <a href="#"class="homepage">HOME</a>
   <a href="#" class="homepage" >ABOUT</a>
@@ -70,7 +70,7 @@ and salads and other good stuff.
         <h5 class="SH">THE MENU</h5>
         <nav>
             <ul>
-                <li>Eat</li>
+                <button id="MENU1">Eat</button>
                 <ul>
                     <li>Bread Basket <br>
                     
@@ -92,7 +92,7 @@ and salads and other good stuff.
                         <br>
                         With syrup, butter and lots of berries 8.50</li>
                 </ul>
-                <li>Drink</li>
+                <button id="MENU2">Drink</button>
                 <ul>
                     <li>Coffee
                         <br>
@@ -143,25 +143,34 @@ and salads and other good stuff.
         </p>
         <br>
         <p id="p4" >
-           <strong>Reserve</strong> a table, ask for today's special or just send us a message:
+           <strong style = "color: black;">Reserve</strong> a table, ask for today's special or just send us a message:
         </p>
         <br>
-        <form>
-            <input type="text" name="name">
-            <input type="text" name="How many people">
-            <input type="datetime-local">
-            <input type="text" name="Message / Special requirements">
+        <form id="form">
+            <input class="FI" type="text" placeholder="Name">
+            <br>
+            <br>
+            <input class="FI" type="text" placeholder="How many people">
+            <br>
+            <br>
+            <input class="FI" type="datetime-local">
+            <br>
+            <br>
+            <input class="FI" type="text" placeholder="Message / Special requirements">
+            <br>
+            <br>
+            <input id="SM" type="button" value="SEND MESSAGE">
         </form>
         <br>
-        <span>
-            SEND MESSAGE
-        </span>
 
     </article>
 
 </main>
-<footer class="centered">
-    Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+<br>
+<br>
+<br>
+<footer id="FC">
+    Powered by <a style="color: black;" href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
 </footer>
 
     
