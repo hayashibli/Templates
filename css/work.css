@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color: black;
+    
+    width: 100%;
+    position: fixed;
+
+}
+    
+.navbarlinks ul {
+
+    margin: 0%;
+    padding: 0%;
+    display:flex;  
+
+}
+.navbarlinks li{
+    list-style: none;
+    padding: .25cm;
+    margin: 0px;
+    display: inline-block;
+}
+.navbarlinks li a{
+    color:white;
+   text-decoration-style: none;
+    text-align: left;
+    padding: .3cm;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: Verdana,sans-serif;
+    margin: 0cm;   
+}
+
+.navbarlinks a:hover{
+    color:black;
+    background-color: white;
+
+}
+
+
+#search{
+  position: relative;
+  right: 0%;
+  top: 0px;
+  
+}
+
+/*#tablink{
+    background-color: black;
+ tab-size: 300px;
+ 
+}*/
+
+
+
+
+
+    
+    
+}
